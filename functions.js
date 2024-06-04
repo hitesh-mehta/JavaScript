@@ -28,3 +28,5 @@ function calculateCartPrice(va1l, val2, ...num1){
 
 console.log(calculateCartPrice(200))
 console.log(calculateCartPrice(200,300,400,600))
+
+
