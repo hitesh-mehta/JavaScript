@@ -142,3 +142,5 @@ console.log("    Hitesh     ".trim()+"Mehta")
 
 console.log(Name.replace('Mehta','Sood'))
 console.log(Name.includes("Mehta"))
+const str = "hehe"
+console.log(str.split('e',1))
