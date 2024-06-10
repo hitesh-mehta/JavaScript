@@ -29,4 +29,9 @@ function calculateCartPrice(va1l, val2, ...num1){
 console.log(calculateCartPrice(200))
 console.log(calculateCartPrice(200,300,400,600))
 
-
+//another format to create a function
+//these functions are accessible only after the declaration and definition
+const funcName = function(num){
+    return num+2;
+}
+console.log(funcName(2));
