@@ -12,3 +12,8 @@ Variables are given the assigned values, and functions create a new execution co
 > These ECs are called in stack frames.
 
 - Eval EC : For some other frameworks, like mongoose
+
+
+# Truthy values : "0","false",[],{},function(){}
+# Falsy values : 0,-0, BigInt 0n, "" , null, undefined, NaN
+
