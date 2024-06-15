@@ -17,3 +17,12 @@ Variables are given the assigned values, and functions create a new execution co
 # Truthy values : "0","false",[],{},function(){}
 # Falsy values : 0,-0, BigInt 0n, "" , null, undefined, NaN
 
+## Reduce function
+>> Syntax:
+>> let initial_val = 10;
+>> const var = arr.reduce(
+>>    (accumulator,currentValue)=>accumulator+currentValue,
+>>   initial_val
+>>)
+
+The accumulator is assigned the value of initial_val for the first time and with each iteration, it gets updated with the return value of the callback function.
